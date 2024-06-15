@@ -1,56 +1,64 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang=“en”>
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset=“UTF-8”>
+<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+<title>Problem Statement</title>
+<style>
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+th, td {
+border: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+</style>
 </head>
-
 <body>
-	<table>
-		<caption>Feedback Form</caption>
-<thead>
-	<tr>
-		<th>Element</th>
-		<th>ID</th>
-		<th>Type</th>
-		<th>Attribute</th>
-		<th>Label Required</th>
-	</tr>
-</thead>
-		<tbody>
-			<tr>
-				<td>Name</td>
-				<td>name</td>
-				<td>Text</td>
-				<td>minlength="3", <br>maxlength="50", required</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<td>Portfolio</td>
-				<td>portfolio</td>
-				<td>URL</td>
-				<td>required</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<td>Favorite Color</td>
-				<td>favColor</td>
-				<td>Color</td>
-				<td>N/A</td>
-				<td>Yes</td>
-			</tr>
-			<tr>
-				<td>Likeness</td>
-				<td>likeness</td>
-				<td>Range</td>
-				<td>min="1", max="100"</td>
-				<td>Yes</td>
-			</tr>
-		</tbody>
-		
-	</table>
-
+<h1>HTML Feedback Form</h1>
+<p>Create a form with the heading <strong>“Feedback Form”</strong>. Follow the requirements below:</p>
+<h2>Input Elements</h2>
+<table>
+<tr>
+<th>Element</th>
+<th>ID</th>
+<th>Type</th>
+<th>Attributes</th>
+<th>Label Required</th>
+</tr>
+<tr>
+<td>Name</td>
+<td>name</td>
+<td>Text</td>
+<td>minlength=“3”, maxlength=“50”, required</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Portfolio</td>
+<td>portfolio</td>
+<td>URL</td>
+<td>required</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Favorite Color</td>
+<td>favColor</td>
+<td>Color</td>
+<td>N/A</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Likeness</td>
+<td>likeness</td>
+<td>Range</td>
+<td>min=“1”, max=“100”</td>
+<td>Yes</td>
+</tr>
+</table>
+<h2>Form Submission</h2>
+<p>The form must be submitted using either the “post” or “POST” method.</p>
 </body>
-
 </html>
